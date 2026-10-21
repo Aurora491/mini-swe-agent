@@ -1,0 +1,38 @@
+name: Docker reliability benchmark
+
+on:
+  workflow_dispatch:
+    inputs:
+      trials:
+        description: Fault-injection trials per variant
+        required: false
+        default: "10"
+  pull_request:
+    paths:
+      - "src/minisweagent/environments/docker.py"
+      - "tests/environments/test_docker.py"
+      - "scripts/benchmark_docker_reliability.py"
+
+jobs:
+  reliability:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -e ".[dev]"
+      - name: Focused tests
+        run: pytest tests/environments/test_docker.py -q
+      - name: Fault-injection benchmark
+        run: |
+          mkdir -p results
+          python scripts/benchmark_docker_reliability.py \
+            --trials "${{ inputs.trials || '10' }}" \
+            --output results/docker-reliability-ci.json
+      - uses: actions/upload-artifact@v6
+        with:
+          name: docker-reliability-report
+          path: results/docker-reliability-ci.json

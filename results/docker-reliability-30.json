@@ -1,0 +1,652 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-10-21T07:46:38.929817+00:00",
+  "image": "python:3.11",
+  "trials_per_variant": 30,
+  "summary": {
+    "baseline_timeout_trials": 30,
+    "baseline_orphan_trials": 30,
+    "baseline_orphan_processes": 60,
+    "baseline_p95_elapsed_ms": 1007.074,
+    "hardened_timeout_trials": 30,
+    "hardened_orphan_trials": 0,
+    "hardened_orphan_processes": 0,
+    "hardened_p95_elapsed_ms": 1209.704,
+    "baseline_submission_detection_rate": 0.03333333333333333,
+    "hardened_submission_detection_rate": 1.0
+  },
+  "timeout_trials": [
+    {
+      "variant": "baseline",
+      "trial": 0,
+      "returncode": -1,
+      "exception_type": "TimeoutExpired",
+      "orphan_processes": 2,
+      "elapsed_ms": 1006.5337079577148
+    },
+    {
+      "variant": "baseline",
+      "trial": 1,
+      "returncode": -1,
+      "exception_type": "TimeoutExpired",
+      "orphan_processes": 2,
+      "elapsed_ms": 1006.56354194507
+    },
+    {
+      "variant": "baseline",
+      "trial": 2,
+      "returncode": -1,
+      "exception_type": "TimeoutExpired",
+      "orphan_processes": 2,
+      "elapsed_ms": 1006.8618749501184
+    },
+    {
+      "variant": "baseline",
+      "trial": 3,
+      "returncode": -1,
+      "exception_type": "TimeoutExpired",
+      "orphan_processes": 2,
+      "elapsed_ms": 1006.5909590339288
+    },
+    {
+      "variant": "baseline",
+      "trial": 4,
+      "returncode": -1,
+      "exception_type": "TimeoutExpired",
+      "orphan_processes": 2,
+      "elapsed_ms": 1005.5203340016305
+    },
+    {
+      "variant": "baseline",
+      "trial": 5,
+      "returncode": -1,
+      "exception_type": "TimeoutExpired",
+      "orphan_processes": 2,
+      "elapsed_ms": 1007.0857499958947
+    },
+    {
+      "variant": "baseline",
+      "trial": 6,
+      "returncode": -1,
+      "exception_type": "TimeoutExpired",
+      "orphan_processes": 2,
+      "elapsed_ms": 1006.1327089788392
+    },
+    {
+      "variant": "baseline",
+      "trial": 7,
+      "returncode": -1,
+      "exception_type": "TimeoutExpired",
+      "orphan_processes": 2,
+      "elapsed_ms": 1005.4848339641467
+    },
+    {
+      "variant": "baseline",
+      "trial": 8,
+      "returncode": -1,
+      "exception_type": "TimeoutExpired",
+      "orphan_processes": 2,
+      "elapsed_ms": 1006.8036250304431
+    },
+    {
+      "variant": "baseline",
+      "trial": 9,
+      "returncode": -1,
+      "exception_type": "TimeoutExpired",
+      "orphan_processes": 2,
+      "elapsed_ms": 1004.3508749222383
+    },
+    {
+      "variant": "baseline",
+      "trial": 10,
+      "returncode": -1,
+      "exception_type": "TimeoutExpired",
+      "orphan_processes": 2,
+      "elapsed_ms": 1004.1437089676037
+    },
+    {
+      "variant": "baseline",
+      "trial": 11,
+      "returncode": -1,
+      "exception_type": "TimeoutExpired",
+      "orphan_processes": 2,
+      "elapsed_ms": 1004.9980420153588
+    },
+    {
+      "variant": "baseline",
+      "trial": 12,
+      "returncode": -1,
+      "exception_type": "TimeoutExpired",
+      "orphan_processes": 2,
+      "elapsed_ms": 1006.6916670184582
+    },
+    {
+      "variant": "baseline",
+      "trial": 13,
+      "returncode": -1,
+      "exception_type": "TimeoutExpired",
+      "orphan_processes": 2,
+      "elapsed_ms": 1004.7614999348298
+    },
+    {
+      "variant": "baseline",
+      "trial": 14,
+      "returncode": -1,
+      "exception_type": "TimeoutExpired",
+      "orphan_processes": 2,
+      "elapsed_ms": 1006.5329589415342
+    },
+    {
+      "variant": "baseline",
+      "trial": 15,
+      "returncode": -1,
+      "exception_type": "TimeoutExpired",
+      "orphan_processes": 2,
+      "elapsed_ms": 1006.261833012104
+    },
+    {
+      "variant": "baseline",
+      "trial": 16,
+      "returncode": -1,
+      "exception_type": "TimeoutExpired",
+      "orphan_processes": 2,
+      "elapsed_ms": 1006.5513340523466
+    },
+    {
+      "variant": "baseline",
+      "trial": 17,
+      "returncode": -1,
+      "exception_type": "TimeoutExpired",
+      "orphan_processes": 2,
+      "elapsed_ms": 1006.2339579453692
+    },
+    {
+      "variant": "baseline",
+      "trial": 18,
+      "returncode": -1,
+      "exception_type": "TimeoutExpired",
+      "orphan_processes": 2,
+      "elapsed_ms": 1005.5344169959426
+    },
+    {
+      "variant": "baseline",
+      "trial": 19,
+      "returncode": -1,
+      "exception_type": "TimeoutExpired",
+      "orphan_processes": 2,
+      "elapsed_ms": 1006.2091250438243
+    },
+    {
+      "variant": "baseline",
+      "trial": 20,
+      "returncode": -1,
+      "exception_type": "TimeoutExpired",
+      "orphan_processes": 2,
+      "elapsed_ms": 1006.6920419922099
+    },
+    {
+      "variant": "baseline",
+      "trial": 21,
+      "returncode": -1,
+      "exception_type": "TimeoutExpired",
+      "orphan_processes": 2,
+      "elapsed_ms": 1006.6985000157729
+    },
+    {
+      "variant": "baseline",
+      "trial": 22,
+      "returncode": -1,
+      "exception_type": "TimeoutExpired",
+      "orphan_processes": 2,
+      "elapsed_ms": 1006.3728750683367
+    },
+    {
+      "variant": "baseline",
+      "trial": 23,
+      "returncode": -1,
+      "exception_type": "TimeoutExpired",
+      "orphan_processes": 2,
+      "elapsed_ms": 1005.9272090438753
+    },
+    {
+      "variant": "baseline",
+      "trial": 24,
+      "returncode": -1,
+      "exception_type": "TimeoutExpired",
+      "orphan_processes": 2,
+      "elapsed_ms": 1005.7571249781176
+    },
+    {
+      "variant": "baseline",
+      "trial": 25,
+      "returncode": -1,
+      "exception_type": "TimeoutExpired",
+      "orphan_processes": 2,
+      "elapsed_ms": 1006.8637919612229
+    },
+    {
+      "variant": "baseline",
+      "trial": 26,
+      "returncode": -1,
+      "exception_type": "TimeoutExpired",
+      "orphan_processes": 2,
+      "elapsed_ms": 1006.047833012417
+    },
+    {
+      "variant": "baseline",
+      "trial": 27,
+      "returncode": -1,
+      "exception_type": "TimeoutExpired",
+      "orphan_processes": 2,
+      "elapsed_ms": 1007.0589170791209
+    },
+    {
+      "variant": "baseline",
+      "trial": 28,
+      "returncode": -1,
+      "exception_type": "TimeoutExpired",
+      "orphan_processes": 2,
+      "elapsed_ms": 1006.2219999963418
+    },
+    {
+      "variant": "baseline",
+      "trial": 29,
+      "returncode": -1,
+      "exception_type": "TimeoutExpired",
+      "orphan_processes": 2,
+      "elapsed_ms": 1007.2828750126064
+    },
+    {
+      "variant": "hardened",
+      "trial": 0,
+      "returncode": -1,
+      "exception_type": "TimeoutExpired",
+      "orphan_processes": 0,
+      "elapsed_ms": 1190.1294579729438
+    },
+    {
+      "variant": "hardened",
+      "trial": 1,
+      "returncode": -1,
+      "exception_type": "TimeoutExpired",
+      "orphan_processes": 0,
+      "elapsed_ms": 1178.074416005984
+    },
+    {
+      "variant": "hardened",
+      "trial": 2,
+      "returncode": -1,
+      "exception_type": "TimeoutExpired",
+      "orphan_processes": 0,
+      "elapsed_ms": 1162.8958750516176
+    },
+    {
+      "variant": "hardened",
+      "trial": 3,
+      "returncode": -1,
+      "exception_type": "TimeoutExpired",
+      "orphan_processes": 0,
+      "elapsed_ms": 1152.6955829467624
+    },
+    {
+      "variant": "hardened",
+      "trial": 4,
+      "returncode": -1,
+      "exception_type": "TimeoutExpired",
+      "orphan_processes": 0,
+      "elapsed_ms": 1155.7603339897469
+    },
+    {
+      "variant": "hardened",
+      "trial": 5,
+      "returncode": -1,
+      "exception_type": "TimeoutExpired",
+      "orphan_processes": 0,
+      "elapsed_ms": 1153.8128340616822
+    },
+    {
+      "variant": "hardened",
+      "trial": 6,
+      "returncode": -1,
+      "exception_type": "TimeoutExpired",
+      "orphan_processes": 0,
+      "elapsed_ms": 1164.3025410594419
+    },
+    {
+      "variant": "hardened",
+      "trial": 7,
+      "returncode": -1,
+      "exception_type": "TimeoutExpired",
+      "orphan_processes": 0,
+      "elapsed_ms": 1255.9524590615183
+    },
+    {
+      "variant": "hardened",
+      "trial": 8,
+      "returncode": -1,
+      "exception_type": "TimeoutExpired",
+      "orphan_processes": 0,
+      "elapsed_ms": 1173.1789580080658
+    },
+    {
+      "variant": "hardened",
+      "trial": 9,
+      "returncode": -1,
+      "exception_type": "TimeoutExpired",
+      "orphan_processes": 0,
+      "elapsed_ms": 1177.9422090621665
+    },
+    {
+      "variant": "hardened",
+      "trial": 10,
+      "returncode": -1,
+      "exception_type": "TimeoutExpired",
+      "orphan_processes": 0,
+      "elapsed_ms": 1181.2592919450253
+    },
+    {
+      "variant": "hardened",
+      "trial": 11,
+      "returncode": -1,
+      "exception_type": "TimeoutExpired",
+      "orphan_processes": 0,
+      "elapsed_ms": 1181.6729170968756
+    },
+    {
+      "variant": "hardened",
+      "trial": 12,
+      "returncode": -1,
+      "exception_type": "TimeoutExpired",
+      "orphan_processes": 0,
+      "elapsed_ms": 1169.908333919011
+    },
+    {
+      "variant": "hardened",
+      "trial": 13,
+      "returncode": -1,
+      "exception_type": "TimeoutExpired",
+      "orphan_processes": 0,
+      "elapsed_ms": 1176.9301659660414
+    },
+    {
+      "variant": "hardened",
+      "trial": 14,
+      "returncode": -1,
+      "exception_type": "TimeoutExpired",
+      "orphan_processes": 0,
+      "elapsed_ms": 1165.536333923228
+    },
+    {
+      "variant": "hardened",
+      "trial": 15,
+      "returncode": -1,
+      "exception_type": "TimeoutExpired",
+      "orphan_processes": 0,
+      "elapsed_ms": 1171.1102920817211
+    },
+    {
+      "variant": "hardened",
+      "trial": 16,
+      "returncode": -1,
+      "exception_type": "TimeoutExpired",
+      "orphan_processes": 0,
+      "elapsed_ms": 1225.7193330442533
+    },
+    {
+      "variant": "hardened",
+      "trial": 17,
+      "returncode": -1,
+      "exception_type": "TimeoutExpired",
+      "orphan_processes": 0,
+      "elapsed_ms": 1186.0483329510316
+    },
+    {
+      "variant": "hardened",
+      "trial": 18,
+      "returncode": -1,
+      "exception_type": "TimeoutExpired",
+      "orphan_processes": 0,
+      "elapsed_ms": 1174.1235409863293
+    },
+    {
+      "variant": "hardened",
+      "trial": 19,
+      "returncode": -1,
+      "exception_type": "TimeoutExpired",
+      "orphan_processes": 0,
+      "elapsed_ms": 1177.664458984509
+    },
+    {
+      "variant": "hardened",
+      "trial": 20,
+      "returncode": -1,
+      "exception_type": "TimeoutExpired",
+      "orphan_processes": 0,
+      "elapsed_ms": 1184.0406249975786
+    },
+    {
+      "variant": "hardened",
+      "trial": 21,
+      "returncode": -1,
+      "exception_type": "TimeoutExpired",
+      "orphan_processes": 0,
+      "elapsed_ms": 1187.766999937594
+    },
+    {
+      "variant": "hardened",
+      "trial": 22,
+      "returncode": -1,
+      "exception_type": "TimeoutExpired",
+      "orphan_processes": 0,
+      "elapsed_ms": 1188.3929169271141
+    },
+    {
+      "variant": "hardened",
+      "trial": 23,
+      "returncode": -1,
+      "exception_type": "TimeoutExpired",
+      "orphan_processes": 0,
+      "elapsed_ms": 1184.038458042778
+    },
+    {
+      "variant": "hardened",
+      "trial": 24,
+      "returncode": -1,
+      "exception_type": "TimeoutExpired",
+      "orphan_processes": 0,
+      "elapsed_ms": 1186.5957910194993
+    },
+    {
+      "variant": "hardened",
+      "trial": 25,
+      "returncode": -1,
+      "exception_type": "TimeoutExpired",
+      "orphan_processes": 0,
+      "elapsed_ms": 1183.0874589504674
+    },
+    {
+      "variant": "hardened",
+      "trial": 26,
+      "returncode": -1,
+      "exception_type": "TimeoutExpired",
+      "orphan_processes": 0,
+      "elapsed_ms": 1184.9969580071047
+    },
+    {
+      "variant": "hardened",
+      "trial": 27,
+      "returncode": -1,
+      "exception_type": "TimeoutExpired",
+      "orphan_processes": 0,
+      "elapsed_ms": 1179.9843329936266
+    },
+    {
+      "variant": "hardened",
+      "trial": 28,
+      "returncode": -1,
+      "exception_type": "TimeoutExpired",
+      "orphan_processes": 0,
+      "elapsed_ms": 1186.5620000753552
+    },
+    {
+      "variant": "hardened",
+      "trial": 29,
+      "returncode": -1,
+      "exception_type": "TimeoutExpired",
+      "orphan_processes": 0,
+      "elapsed_ms": 1187.0320839807391
+    }
+  ],
+  "submission_marker_trials": [
+    {
+      "leading_lines": 0,
+      "baseline_detected": true,
+      "hardened_detected": true
+    },
+    {
+      "leading_lines": 1,
+      "baseline_detected": false,
+      "hardened_detected": true
+    },
+    {
+      "leading_lines": 2,
+      "baseline_detected": false,
+      "hardened_detected": true
+    },
+    {
+      "leading_lines": 3,
+      "baseline_detected": false,
+      "hardened_detected": true
+    },
+    {
+      "leading_lines": 4,
+      "baseline_detected": false,
+      "hardened_detected": true
+    },
+    {
+      "leading_lines": 5,
+      "baseline_detected": false,
+      "hardened_detected": true
+    },
+    {
+      "leading_lines": 6,
+      "baseline_detected": false,
+      "hardened_detected": true
+    },
+    {
+      "leading_lines": 7,
+      "baseline_detected": false,
+      "hardened_detected": true
+    },
+    {
+      "leading_lines": 8,
+      "baseline_detected": false,
+      "hardened_detected": true
+    },
+    {
+      "leading_lines": 9,
+      "baseline_detected": false,
+      "hardened_detected": true
+    },
+    {
+      "leading_lines": 10,
+      "baseline_detected": false,
+      "hardened_detected": true
+    },
+    {
+      "leading_lines": 11,
+      "baseline_detected": false,
+      "hardened_detected": true
+    },
+    {
+      "leading_lines": 12,
+      "baseline_detected": false,
+      "hardened_detected": true
+    },
+    {
+      "leading_lines": 13,
+      "baseline_detected": false,
+      "hardened_detected": true
+    },
+    {
+      "leading_lines": 14,
+      "baseline_detected": false,
+      "hardened_detected": true
+    },
+    {
+      "leading_lines": 15,
+      "baseline_detected": false,
+      "hardened_detected": true
+    },
+    {
+      "leading_lines": 16,
+      "baseline_detected": false,
+      "hardened_detected": true
+    },
+    {
+      "leading_lines": 17,
+      "baseline_detected": false,
+      "hardened_detected": true
+    },
+    {
+      "leading_lines": 18,
+      "baseline_detected": false,
+      "hardened_detected": true
+    },
+    {
+      "leading_lines": 19,
+      "baseline_detected": false,
+      "hardened_detected": true
+    },
+    {
+      "leading_lines": 20,
+      "baseline_detected": false,
+      "hardened_detected": true
+    },
+    {
+      "leading_lines": 21,
+      "baseline_detected": false,
+      "hardened_detected": true
+    },
+    {
+      "leading_lines": 22,
+      "baseline_detected": false,
+      "hardened_detected": true
+    },
+    {
+      "leading_lines": 23,
+      "baseline_detected": false,
+      "hardened_detected": true
+    },
+    {
+      "leading_lines": 24,
+      "baseline_detected": false,
+      "hardened_detected": true
+    },
+    {
+      "leading_lines": 25,
+      "baseline_detected": false,
+      "hardened_detected": true
+    },
+    {
+      "leading_lines": 26,
+      "baseline_detected": false,
+      "hardened_detected": true
+    },
+    {
+      "leading_lines": 27,
+      "baseline_detected": false,
+      "hardened_detected": true
+    },
+    {
+      "leading_lines": 28,
+      "baseline_detected": false,
+      "hardened_detected": true
+    },
+    {
+      "leading_lines": 29,
+      "baseline_detected": false,
+      "hardened_detected": true
+    }
+  ]
+}
